@@ -1,0 +1,5 @@
+{
+    "key": "ctrl+alt+t",
+    "command": "extension.toggleClassNames",
+    "when": "editorTextFocus"
+}
