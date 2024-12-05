@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log("Tailwind ClassName Hider activated!");
+  console.log("Tailwind ClassName Hider is now activated!");
 
   let disposable = vscode.commands.registerCommand("extension.toggleClassNames", () => {
     vscode.window.showInformationMessage("Toggle Tailwind Class Names executed!");
