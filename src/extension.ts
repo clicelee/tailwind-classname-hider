@@ -6,6 +6,8 @@ export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand("extension.toggleClassNames", () => {
     const editor = vscode.window.activeTextEditor;
 
+    vscode.window.showInformationMessage("Toggle Tailwind Class Names executed!");
+
     if (!editor) {
       vscode.window.showErrorMessage("No active editor found!");
       return;
